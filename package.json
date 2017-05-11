@@ -6,13 +6,16 @@
   "author": "Michael Klein",
   "private": true,
   "license": "BSD",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
   "dependencies": {
     "babel": "^6.23.0",
     "express": "4.13.4",
-    "nodemon": "^1.11.0",
     "socket.io": "^1.7.3"
   },
   "scripts": {
-    "start": "nodemon"
+    "start": "node",
+    "start:dev": "nodemon"
   }
 }
